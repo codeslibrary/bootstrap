@@ -1,5 +1,5 @@
 {
-  "name": "bootstrap",
+  "name": "bootstrap_boilerplate",
   "version": "1.0.0",
   "description": "Boilerplate",
   "main": "index.js",
@@ -28,5 +28,7 @@
     "gulp-sass": "^4.0.2",
     "gulp-uglify": "^3.0.2"
   },
-  "dependencies": {}
+  "dependencies": {
+    "bootstrap": "^4.3.1"
+  }
 }
