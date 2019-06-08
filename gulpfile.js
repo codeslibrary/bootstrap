@@ -39,6 +39,7 @@ function css() {
     .pipe(
       purgecss({
         content: ['./build/*.html'],
+        whitelist: ['show']
       }))
     .pipe(cleanCSS({compatibility: 'ie8'}))
     .pipe(rename("style.min.css"))
