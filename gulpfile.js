@@ -60,7 +60,7 @@ function imgmin(){
 };
 
 function live() {
-    gulp.watch('./*.html',html);
+    gulp.watch('./*.html',series(html,css));
     gulp.watch('./scss/*.scss',css);
     gulp.watch('./js/*.js',scripts);
   }
